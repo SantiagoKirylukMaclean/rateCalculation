@@ -1,0 +1,9 @@
+[ERROR] 2019-02-04 00:04:19.727 [main] Quote - The amount requested is greater than the amount we can grant
+[ERROR] 2019-02-04 00:20:59.021 [main] RateCalc - The amount has to be £100 increment between £1000 and £15000 inclusive
+[ERROR] 2019-02-04 00:22:56.380 [main] RateCalc - The amount has to be £100 increment between £1000 and £15000 inclusive
+[ERROR] 2019-02-04 00:39:05.963 [main] RateCalc - The amount has to be $100 increment between $1000 and $15000 inclusive
+[ERROR] 2019-02-04 00:39:37.684 [main] RateCalc - java.lang.NumberFormatException: For input string: "1000000033333333333333333333333333333333333333"
+[ERROR] 2019-02-04 00:46:00.008 [main] RateCalc - The amount has to be $100 increment between $1000 and $15000 inclusive
+[ERROR] 2019-02-04 00:46:06.610 [main] RateCalc - The amount has to be $100 increment between $1000 and $15000 inclusive
+[ERROR] 2019-02-04 00:46:20.017 [main] Quote - The amount requested is greater than the amount we can grant
+[ERROR] 2019-02-04 00:46:20.018 [main] RateCalc - java.lang.Exception: The amount requested is greater than the amount we can grant

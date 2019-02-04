@@ -1,0 +1,36 @@
+[DEBUG] 2019-02-04 00:03:47.475 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 121212112
+[DEBUG] 2019-02-04 00:03:47.544 [main] Quote - Requested Amount: £121212112
+Rate:7.8% 
+Monthly Repayments: £3786376.12 
+Total Repayment: £136309540.32
+[DEBUG] 2019-02-04 00:04:19.659 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 121212112
+[ERROR] 2019-02-04 00:04:19.727 [main] Quote - The amount requested is greater than the amount we can grant
+[DEBUG] 2019-02-04 00:20:59.015 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 121212112
+[ERROR] 2019-02-04 00:20:59.021 [main] RateCalc - The amount has to be £100 increment between £1000 and £15000 inclusive
+[DEBUG] 2019-02-04 00:22:56.375 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 121212112
+[ERROR] 2019-02-04 00:22:56.380 [main] RateCalc - The amount has to be £100 increment between £1000 and £15000 inclusive
+[DEBUG] 2019-02-04 00:39:05.960 [main] RateCalc - File Market: C:\Users\User\workspace\rateCalculation\src\main\resources\MarketDataforExercise.csv - Amount: 10000000
+[ERROR] 2019-02-04 00:39:05.963 [main] RateCalc - The amount has to be $100 increment between $1000 and $15000 inclusive
+[ERROR] 2019-02-04 00:39:37.684 [main] RateCalc - java.lang.NumberFormatException: For input string: "1000000033333333333333333333333333333333333333"
+[DEBUG] 2019-02-04 00:46:00.005 [main] RateCalc - File Market: C:\Users\User\workspace\rateCalculation\src\main\resources\MarketDataforExercise.csv - Amount: 10000000
+[ERROR] 2019-02-04 00:46:00.008 [main] RateCalc - The amount has to be $100 increment between $1000 and $15000 inclusive
+[DEBUG] 2019-02-04 00:46:06.607 [main] RateCalc - File Market: C:\Users\User\workspace\rateCalculation\src\main\resources\MarketDataforExercise.csv - Amount: 500
+[ERROR] 2019-02-04 00:46:06.610 [main] RateCalc - The amount has to be $100 increment between $1000 and $15000 inclusive
+[DEBUG] 2019-02-04 00:46:19.960 [main] RateCalc - File Market: C:\Users\User\workspace\rateCalculation\src\main\resources\MarketDataforExercise.csv - Amount: 15000
+[ERROR] 2019-02-04 00:46:20.017 [main] Quote - The amount requested is greater than the amount we can grant
+[ERROR] 2019-02-04 00:46:20.018 [main] RateCalc - java.lang.Exception: The amount requested is greater than the amount we can grant
+[DEBUG] 2019-02-04 00:46:29.120 [main] RateCalc - File Market: C:\Users\User\workspace\rateCalculation\src\main\resources\MarketDataforExercise.csv - Amount: 1500
+[DEBUG] 2019-02-04 00:46:29.178 [main] Quote - Requested Amount: ?1500
+Rate:7.2% 
+Monthly Repayments: ?46.46 
+Total Repayment: ?1672.56
+[DEBUG] 2019-02-04 00:47:46.704 [main] RateCalc - File Market: C:\Users\User\workspace\rateCalculation\src\main\resources\MarketDataforExercise.csv - Amount: 1500
+[DEBUG] 2019-02-04 00:47:46.764 [main] Quote - Requested Amount: $1500
+Rate:7.2% 
+Monthly Repayments: $46.46 
+Total Repayment: $1672.56
+[DEBUG] 2019-02-04 00:47:54.673 [main] RateCalc - File Market: C:\Users\User\workspace\rateCalculation\src\main\resources\MarketDataforExercise.csv - Amount: 1000
+[DEBUG] 2019-02-04 00:47:54.734 [main] Quote - Requested Amount: $1000
+Rate:7.0% 
+Monthly Repayments: $30.88 
+Total Repayment: $1111.68

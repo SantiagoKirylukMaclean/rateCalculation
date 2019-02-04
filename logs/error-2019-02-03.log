@@ -1,0 +1,7 @@
+[ERROR] 2019-02-03 23:38:37.207 [main] Quote - The amount requested is greater than the amount we can grant
+[ERROR] 2019-02-03 23:40:53.398 [main] Quote - The amount requested is greater than the amount we can grant
+[ERROR] 2019-02-03 23:49:24.179 [main] Quote - The amount requested is greater than the amount we can grant
+com.rate.app.utils.CustomExeption: The amount requested is greater than the amount we can grant
+	at com.rate.app.controler.impl.LenderControllerImpl.getLendersForAmount(LenderControllerImpl.java:76) [classes/:?]
+	at com.rate.app.model.Quote.<init>(Quote.java:27) [classes/:?]
+	at com.rate.app.RateCalc.main(RateCalc.java:20) [classes/:?]

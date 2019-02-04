@@ -1,0 +1,26 @@
+[DEBUG] 2019-02-03 22:20:53.692 [main] RateCalc - test
+[DEBUG] 2019-02-03 22:20:53.695 [main] RateCalc - File: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 22:20:53.745 [main] Services - File: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 22:57:48.325 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:03:50.111 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:03:58.645 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:04:20.957 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:04:57.894 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:05:28.685 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:07:15.857 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:07:53.669 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:31:07.190 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 2000
+[DEBUG] 2019-02-03 23:38:37.142 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 121212112
+[ERROR] 2019-02-03 23:38:37.207 [main] Quote - The amount requested is greater than the amount we can grant
+[DEBUG] 2019-02-03 23:40:53.336 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 121212112
+[ERROR] 2019-02-03 23:40:53.398 [main] Quote - The amount requested is greater than the amount we can grant
+[DEBUG] 2019-02-03 23:49:24.097 [main] RateCalc - File Market: src/main/resources/MarketDataforExercise.csv - Amount: 121212112
+[ERROR] 2019-02-03 23:49:24.179 [main] Quote - The amount requested is greater than the amount we can grant
+com.rate.app.utils.CustomExeption: The amount requested is greater than the amount we can grant
+	at com.rate.app.controler.impl.LenderControllerImpl.getLendersForAmount(LenderControllerImpl.java:76) [classes/:?]
+	at com.rate.app.model.Quote.<init>(Quote.java:27) [classes/:?]
+	at com.rate.app.RateCalc.main(RateCalc.java:20) [classes/:?]
+[DEBUG] 2019-02-03 23:49:24.188 [main] Quote - Requested Amount: £121212112
+Rate:7.8% 
+Monthly Repayments: £3786376.12 
+Total Repayment: £136309540.32
